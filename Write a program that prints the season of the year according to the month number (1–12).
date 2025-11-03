@@ -1,0 +1,26 @@
+#include <iostream>
+Using namespace std;
+
+Int main()	{
+	int ay;
+	cout<<“Amin nomresini dcxil edin(1-12):”;
+	cin>>ay;
+
+	if (ay>=3 && ay<=5)	{
+	    cout<<“Bu fesil:Yaz”<<endl;
+	}
+	else if (ay>=6 && ay<=8)	{
+	}
+	     cout<<“Bu fesil:Yay”<<endl;
+Else if (ay>=9 && ay<=11)	{
+	 cout<<“Bu fesil:Payiz”<<endl;
+}
+Else if (ay==12 || ay==1 || ay==2)		{
+	 cout<<“Bu fesil:Qis”<<endl;
+}
+Else	{
+	cout<<“Sehv ay nomresi daxil edilib!”<<endl;
+}
+   Return 0;
+}
+
