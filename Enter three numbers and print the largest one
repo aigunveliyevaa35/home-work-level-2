@@ -1,0 +1,14 @@
+3 
+  #include <iostream>
+Using namespace std;
+Int main()	{
+Double a,b,c;
+Cout<<”Uc eded daxil edin:”;
+Cin>>a>>b>>c;
+If (a>b&a>c)
+Cout<<”En boyuk eded:”<<a<<endl;
+Else if (b>a&b>c)
+Cout<<”En boyuk eded:”<<b<<endl;
+Else 
+Cout<<”En boyuk eded:”<<c<<endl;
+}
