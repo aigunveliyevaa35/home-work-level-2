@@ -1,0 +1,14 @@
+#include <iostream>
+Using namespace std;
+
+Int main()	{
+	int il;
+	cout<<“Ili daxil Edin:”;
+	cin>>il;
+	If ((il%4==0 && il%100!=0) || (il%400==0)) {
+		cout<<il<<“Ili artiq ildir.”<<endl;
+	}else {
+		cout<<il<<“Ili artiq il deyil.”<<endl;
+	}
+	return 0;
+}
