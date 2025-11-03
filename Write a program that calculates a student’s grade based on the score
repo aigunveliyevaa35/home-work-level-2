@@ -1,0 +1,27 @@
+5) #include <iostream>
+Using namespace std;
+
+Int main()	{
+	int skor;
+	cout<<“Balinizi daxil edin(0-100):”;
+	if(!(cin>>score))	{
+	     cout<<“Sehv daxil olma!”<<endl;
+	      return 0;
+     }
+If (skor<0 || skor>100)	{
+	cout<<“Bal 0 ile 100 arasinda olmalıdır.”<<endl;
+}else if (skor<=50)	{
+	cout<<“Qiymet:F”<<endl;
+}else if (skor<=60)	{
+	cout<<“Qiymet:E”<<endl;
+}else if (skor<=70)	{
+	cout<<“Qiymet:D”<<endl;
+}else if (skor<=80)	{
+	cout<<“Qiymet:C”<<endl;
+}else if (skor<=90)	{
+	cout<<“Qiymet:B”<<endl;
+}else 	{
+	cout<<“Qiymet:A”<<endl;
+}
+Return 0;
+}
