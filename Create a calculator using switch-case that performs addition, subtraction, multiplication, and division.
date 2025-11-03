@@ -1,0 +1,32 @@
+7)#include <iostream>
+Using namespace std;
+
+Int main()	{
+Double a,b;
+Char d;
+
+Cout<<“Birinci ededi daxil edin:”;
+cin>>a;
+
+Cout<<“Emely daxil edin(+,-,*,/):”;
+cin>>d;
+
+Cout<<“Ikinci ededi daxil edin:”;
+cin>>b;
+
+If (d==‘+’)
+	cout<<“Netice:”<<a+b<<endl;
+Else if(d==‘-‘)
+	cout<<“Netice:<<a-b<<endl;
+Else if(d==‘*’)
+	cout<<“Netice:<<a*b<<endl;
+Else if(d==‘/‘)		{
+	if (b==0)
+	    cout<<“0-a bolmek olmaz!”<<endl;
+	else 
+	    cout<<“Netice:<<a/b<<endl;
+}
+Else 
+	cout<<“Duzgun Amel daxil edilmeyib!”<<endl;
+Return 0;
+}
