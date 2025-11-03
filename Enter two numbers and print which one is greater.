@@ -1,0 +1,14 @@
+#include <iostream>
+Using namespace std;
+
+Int main()	{
+Double a,b;
+Cout<<”Iki eded daxil edin:”;
+Cin>>a>>b;
+If (a>b)
+Cout<<”En boyuk eded:”<<a<<endl;
+Else if (a<b)
+Cout<<”En boyuk eded:<<b<<endl;
+Else 
+Cout<<”Boyuk eded yoxdur,beraberdirler”;
+}
