@@ -1,0 +1,13 @@
+4)#include <iostream>
+Using namespace std;
+
+Int main()	{
+Int a;
+Cout<<”Eded daxil edin:”;
+Cin>>a;
+
+If (a%2==0)
+Cout<<”Cut ededdir”<<endl;
+Else 
+Cout<<”Tek ededdir”<<endl;
+}
